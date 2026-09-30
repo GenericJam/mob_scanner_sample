@@ -9,8 +9,8 @@ Android) and an iPhone SE (3rd gen, iOS). The versions are pinned in `mix.exs`:
 
 | Package       | Version |
 |---------------|---------|
-| `mob`         | 0.9.3   |
-| `mob_dev`     | 0.7.0   |
+| `mob`         | 0.9.4   |
+| `mob_dev`     | 0.7.2   |
 | `mob_scanner` | 0.1.3   |
 | `mob_camera`  | 0.1.8   |
 

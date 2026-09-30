@@ -22,8 +22,8 @@ defmodule ScannerSample.MixProject do
     [
       # Pinned to the exact versions this sample was verified with on a
       # Moto G Power 5G (2024) and an iPhone SE (3rd gen), 2026-09-30.
-      {:mob, "== 0.9.3"},
-      {:mob_dev, "== 0.7.0", only: :dev, runtime: false},
+      {:mob, "== 0.9.4"},
+      {:mob_dev, "== 0.7.2", only: :dev, runtime: false},
       {:ecto_sqlite3, "~> 0.18"},
       # A plugin needs BOTH this dep AND an entry in mob.exs
       # `config :mob, :plugins` — see README.
