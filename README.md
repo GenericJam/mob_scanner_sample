@@ -10,9 +10,9 @@ Android) and an iPhone SE (3rd gen, iOS). The versions are pinned in `mix.exs`:
 | Package       | Version |
 |---------------|---------|
 | `mob`         | 0.9.4   |
-| `mob_dev`     | 0.7.2   |
-| `mob_scanner` | 0.1.3   |
-| `mob_camera`  | 0.1.8   |
+| `mob_dev`     | 0.7.3   |
+| `mob_scanner` | 0.1.4   |
+| `mob_camera`  | 0.1.9   |
 
 ## Run it
 
@@ -32,8 +32,8 @@ camera at a QR code. The decoded value shows as `last scan: qr: <value>`.
    runtime permission and the iOS camera usage string that the scanner uses.
 
    ```elixir
-   {:mob_scanner, "== 0.1.3"},
-   {:mob_camera, "== 0.1.8"}
+   {:mob_scanner, "== 0.1.4"},
+   {:mob_camera, "== 0.1.9"}
    ```
 
 2. **Both plugins activated** (`mob.exs`). Adding a dep alone does nothing

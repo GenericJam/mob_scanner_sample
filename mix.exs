@@ -23,14 +23,14 @@ defmodule ScannerSample.MixProject do
       # Pinned to the exact versions this sample was verified with on a
       # Moto G Power 5G (2024) and an iPhone SE (3rd gen), 2026-09-30.
       {:mob, "== 0.9.4"},
-      {:mob_dev, "== 0.7.2", only: :dev, runtime: false},
+      {:mob_dev, "== 0.7.3", only: :dev, runtime: false},
       {:ecto_sqlite3, "~> 0.18"},
       # A plugin needs BOTH this dep AND an entry in mob.exs
       # `config :mob, :plugins` — see README.
-      {:mob_scanner, "== 0.1.3"},
+      {:mob_scanner, "== 0.1.4"},
       # Owns the :camera runtime permission (and the iOS camera usage
       # string) that mob_scanner relies on.
-      {:mob_camera, "== 0.1.8"},
+      {:mob_camera, "== 0.1.9"},
       # Code quality — Credo + ex_slop (catches AI-generated patterns
       # like blanket rescue, narrator docs, redundant Enum chains, etc).
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
